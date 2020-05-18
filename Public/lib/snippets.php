@@ -1,0 +1,3 @@
+<?php
+/* Tu código personal */
+?>

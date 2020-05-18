@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(Fondos/fon-tabla.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+table {
+	border:1px solid #00D8FF;
+	width: 95%;
+	margin: 20px;
+	padding: 20px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table tr{
+	background-color: rgba(0, 216, 255,0.1);
+	border: 1px solid #00D8FF;
+	padding: 5px;
+}
+
+table tr: nth-child(even){
+	background-color: rgba(141, 0, 255,0.5);
+	color: white;
+}
+
+table td, table th{
+	padding: 10px;
+	text-align: center;
+}
+
+table th{
+	text-transform: uppercase;
+	font-family: 18px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+table td{
+	text-transform: uppercase;
+	font-family: 18px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.button1{
+	background: #00D8FF;
+	padding: 10px 20px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	border-radius: 6px;
+	transition: all 200ms;
+    display: inline;
+}
+
+.button1:hover{
+	background: #00D8FF;
+	box-shadow: 0 0 10px #00D8FF, 0 0 20px #00D8FF, 0 0 30px #00D8FF;
+	transition-delay: 0.5s;
+}
+
+.button2{
+	background: #00D8FF;
+	padding: 8px 18px;
+	text-align: center;
+	color: black;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	border-radius: 6px;
+	transition: all 200ms;
+    display: inline;
+}
+
+.button2:hover{
+	background: #00D8FF;
+	box-shadow: 0 0 10px #00D8FF, 0 0 20px #00D8FF, 0 0 30px #00D8FF;
+	transition-delay: 0.5s;
+}

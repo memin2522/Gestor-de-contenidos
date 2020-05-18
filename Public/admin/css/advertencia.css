@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(Fondos/fon-advertencia.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.contenedor .form .form-header .form-title{
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #00FFE0; 
+	text-align: center;
+	padding: 15px 0;
+}
+
+.contenedor .form .form-header .form-title span{
+	color: #00EEF7;
+}
+
+.contenedor .form{
+	background: rgba(0,0,0,0.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+}
+
+.contenedor .form .button{
+	width: 100%;
+	font-family: Roboto;
+	outline: none;
+	background: #00EEF7;
+	font-size: 20px;
+	border: none;
+	color: #000;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all.5s ease;
+}
+
+.contenedor .form .button:hover{
+	background: #00EEF7;
+	box-shadow: 0 0 10px #00EEF7, 0 0 20px #00EEF7, 0 0 30px #00EEF7;
+	transition-delay: 0.5s;
+}
